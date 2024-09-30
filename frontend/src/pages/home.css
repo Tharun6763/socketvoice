@@ -1,0 +1,54 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+body {
+    /* background-image: url('../images/home.jpg'); */
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.container{
+    
+    background-color: rgb(10, 227, 227);
+    width:40vw;
+    height:50vh; 
+    margin-top:100px;
+    /* overflow: auto; */
+
+    
+    border-radius: 10%;
+}
+.top{
+    /* background-color: brown; */
+    padding-top: 20px;
+    /* height:100px; */
+    height:20%;
+    justify-content: center;
+    display: flex;
+    gap:110px;
+    align-content: center;
+}
+
+.form{
+    /* background-color: black; */
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    height:50vh;
+}
+
+.label{
+    /* background-color: rgb(231, 142, 142); */
+    padding-left: 170px;
+}
